@@ -15,17 +15,17 @@ def body() -> rx.Component:
             info_experience(
                 "Experiencia",
                 "Supermercados Día",
-                "Encargado Tienda",
+                "Encargado general de Tienda",
                 data.DESCRIPCION_EXPERIENCIA_DIA
             ),
-            width="30em"
+            width="100%"
         ),
         rx.hstack(
             rx.vstack(
                 info_detail(
                     "Proyectos",
                     "Página de Links",
-                    "Una página de links responsive y configurable",
+                    "página de links responsive y configurable",
                     data.DESCRIPCION_PAGINA_LINKS,
                     data.URL_JUANDEV,
                     data.URL_JUANDEV_GITHUB
@@ -52,7 +52,7 @@ def body() -> rx.Component:
                 info_detail(
                     "Proyectos",
                     "portafolio",
-                    "Un portafolio de programador responsive y personalizable",
+                    "Portafolio de programador responsive y personalizable",
                     data.DESCRIPCION_PORTAFOLIO,
                     data.URL_PORTAFOLIO,
                     data.URL_PORTAFOLIO_GITHUB
@@ -77,7 +77,7 @@ def body() -> rx.Component:
         ),
         info_experience(
             "Formación",
-            "Instituto Técnico Jose Eugenio Martinez",
+            "Instituto Técnico José Eugenio Martinez",
             "Bachiller Técnico en Sistemas",
             "Egresado noviembre 2018"
         ),

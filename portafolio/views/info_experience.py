@@ -18,6 +18,8 @@ def info_experience(heading="", text1="", text2="",text3="") -> rx.Component:
                         color_scheme="gray"
                     )
                 )
-            )
-        )
+            ),
+            width="100%"
+        ),
+        width="100%"
     )

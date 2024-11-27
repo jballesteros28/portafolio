@@ -1,23 +1,21 @@
 DESCRIPTION="""Soy estudiante de Ingeniería de Sistemas y actualmente estoy disponible como back-end
-                y front-end developer.Programador junior comprometido con valores como el respeto,
-                la confianza,la honestidad y la predisposición,fundamentales para colaborar en equipos
-                de desarrollo. Destaco por mi capacidad para tomar decisiones,mis habilidades de comunicación
-                y mi enfoque proactivo, que me permiten abordar desafíos con creatividad e innovación.
+                y front-end developer. Programador junior comprometido con valores como el respeto, 
+                la confianza, la honestidad y la predisposición, fundamentales para colaborar en equipos
+                de desarrollo. Destaco por mi capacidad para tomar decisiones, mis habilidades de comunicación
+                y mi enfoque proactivo, que me permiten abordar desafíos con creatividad e innovación. 
                 Tengo experiencia en la gestión de prioridades, realización de pruebas de funcionalidad
-                y rendimiento,y resolución de problemas técnicos, siempre orientado a garantizar la calidad
+                y rendimiento, y resolución de problemas técnicos, siempre orientado a garantizar la calidad
                 y eficiencia en cada proyecto de desarrollo."""
 
-DESCRIPCION_PAGINA_LINKS="""Página centralizada con enlaces de contacto y portafolio profesional,
+DESCRIPCION_PAGINA_LINKS="""Página centralizada con enlaces de contacto y portafolio profesional, 
                             incluyendo LinkedIn, GitHub, mail y otras plataformas relevantes de acceso rápido
                             y organizado para conocer mi perfil,proyectos y experiencia."""
 
-DESCRIPCION_PORTAFOLIO="""Portafolio profesional que muestra proyectos destacados,
+DESCRIPCION_PORTAFOLIO="""Portafolio profesional que muestra proyectos destacados,  
                             habilidades técnicas y logros clave, diseñado para reflejar mi experiencia
                             y capacidad en desarrollo y programación."""
 
-DESCRIPCION_EXPERIENCIA_DIA= """supervisar las operaciones diarias del establecimiento, gestionar el inventario,
-                                liderar al personal, garantizar un excelente servicio al cliente y asegurar el
-                                cumplimiento de las políticas y estándares de calidad."""
+DESCRIPCION_EXPERIENCIA_DIA= """Gestión integral de las operaciones del local, supervisión de equipos y manejo de personal. Trabajo para ofrecer un excelente servicio al cliente y asegurar el cumplimiento de las políticas y estándares de calidad. Mi rol también incluye la resolución de problemas operativos de manera proactiva, proponer procesos de mejora continua y garantizar el funcionamiento eficiente del establecimiento."""
 
 
 AVATAR="juan.jpg"

@@ -23,7 +23,7 @@ def header() -> rx.Component:
             rx.vstack(
                 rx.vstack(
                     title("Juan David Ballesteros Bayona",True),
-                    title("programador frontend y backend"),
+                    title("Programador Front-end y Back-end"),
                     spacing="0",
                     width="100%"
                 ),
