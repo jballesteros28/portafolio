@@ -11,20 +11,26 @@ from .info_experience import info_experience
 def body() -> rx.Component:
     return rx.vstack(
         tech_stack(),
-        info_experience(
-            "Experiencia",
-            "Supermercados Dia",
-            "Encargado Tienda",
-            "Mi experiencia"
+        rx.vstack(
+            info_experience(
+                "Experiencia",
+                "Supermercados Día",
+                "Encargado Tienda",
+                data.DESCRIPCION_EXPERIENCIA_DIA
+            ),
+            width="30em"
         ),
         rx.hstack(
             rx.vstack(
                 info_detail(
                     "Proyectos",
-                    "Pagina de links",
-                    "una pagina de links responsive y configurable",
-                    "Herramienta personal de acceso"
-                )
+                    "Página de Links",
+                    "Una página de links responsive y configurable",
+                    data.DESCRIPCION_PAGINA_LINKS,
+                    data.URL_JUANDEV,
+                    data.URL_JUANDEV_GITHUB
+                ),
+                width="30em"
             ),
             rx.spacer(),
             rx.card(
@@ -47,8 +53,11 @@ def body() -> rx.Component:
                     "Proyectos",
                     "portafolio",
                     "Un portafolio de programador responsive y personalizable",
-                    "Herramienta personal de acceso"
-                )
+                    data.DESCRIPCION_PORTAFOLIO,
+                    data.URL_PORTAFOLIO,
+                    data.URL_PORTAFOLIO_GITHUB
+                ),
+                width="30em"
             ),
             rx.spacer(),
             rx.card(
@@ -67,10 +76,10 @@ def body() -> rx.Component:
             align="center"
         ),
         info_experience(
-            "Formacion",
-            "Instituto Tecnico Jose Eugenio Martinez(secundaria)",
-            "Bachiller Tecnico en Sistemas",
-            "Aprendi cosas"
+            "Formación",
+            "Instituto Técnico Jose Eugenio Martinez",
+            "Bachiller Técnico en Sistemas",
+            "Egresado noviembre 2018"
         ),
         spacing="7",
         width="100%"

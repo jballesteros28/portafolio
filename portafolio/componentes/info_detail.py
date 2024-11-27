@@ -6,7 +6,7 @@ from .icon_badge import icon_badge
 from .icon_buttom import icon_buttom
 
 
-def info_detail(heading="", text1="", text2="",text3="") -> rx.Component:
+def info_detail(heading="", text1="", text2="",text3="",link_page="", url_github="") -> rx.Component:
     return rx.flex(
         rx.vstack(
             title(heading),
@@ -44,11 +44,11 @@ def info_detail(heading="", text1="", text2="",text3="") -> rx.Component:
                     rx.hstack(
                         icon_buttom(
                             "link",
-                            data.URL_JUANDEV,
+                            link_page
                         ),
                         icon_buttom(
                             "github",
-                            data.URL_JUANDEV_GITHUB,
+                            url_github
                         )
                     )
                 )

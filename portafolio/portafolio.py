@@ -21,7 +21,7 @@ def index() -> rx.Component:
         rx.vstack(
             header(),
             about(
-                "Sobre mi",
+                "Sobre mí",
                 data.DESCRIPTION
             ),
             rx.divider(),
@@ -49,4 +49,7 @@ app = rx.App(
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
 )
-app.add_page(index)
+app.add_page(
+    index,
+    title="JuanDev | Portafolio"
+)

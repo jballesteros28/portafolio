@@ -13,13 +13,13 @@ class State(rx.State):
 
 def tech_stack() -> rx.Component:
     return rx.vstack(
-        title("Tecnologias"),
+        title("Tecnologías"),
         rx.flex(
             rx.hstack(
                 link_buttom(
                     data.LOGO_PYTHON,
                     data.URL_PYTHON,
-                    "python"
+                    "Python"
                 ),
                 link_buttom(
                     data.LOGO_REFLEX,
