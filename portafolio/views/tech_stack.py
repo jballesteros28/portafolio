@@ -30,7 +30,22 @@ def tech_stack() -> rx.Component:
                     data.LOGO_FASTAPI,
                     data.URL_FASTAPI,
                     "Fast-API"
-                )
+                ),
+                link_buttom(
+                    data.LOGO_PYTHON,
+                    data.URL_PYTHON,
+                    "ReactJS"
+                ),
+                link_buttom(
+                    data.LOGO_PYTHON,
+                    data.URL_PYTHON,
+                    "Css"
+                ),
+                link_buttom(
+                    data.LOGO_PYTHON,
+                    data.URL_PYTHON,
+                    "Javascript"
+                ),
             ),
             flex_wrap="wrap",
         )

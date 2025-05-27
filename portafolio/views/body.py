@@ -11,15 +11,6 @@ from .info_experience import info_experience
 def body() -> rx.Component:
     return rx.vstack(
         tech_stack(),
-        rx.vstack(
-            info_experience(
-                "Experiencia",
-                "Supermercados Día",
-                "Encargado general de Tienda",
-                data.DESCRIPCION_EXPERIENCIA_DIA
-            ),
-            width="100%"
-        ),
         rx.hstack(
             rx.vstack(
                 info_detail(
