@@ -46,6 +46,8 @@ def tech_stack() -> rx.Component:
                     data.URL_PYTHON,
                     "Javascript"
                 ),
+                display= "flex",
+                flex_wrap= "wrap"
             ),
             flex_wrap="wrap",
         )
