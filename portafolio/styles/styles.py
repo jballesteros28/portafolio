@@ -3,7 +3,7 @@ import reflex as rx
 from .colors import color
 
 MAX_WIDTH = "900px"
-IMAGE_HEIGHT = "175px"
+IMAGE_HEIGHT = "160px"
 
 
 class EmSize(Enum):

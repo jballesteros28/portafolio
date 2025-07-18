@@ -32,17 +32,17 @@ def tech_stack() -> rx.Component:
                     "Fast-API"
                 ),
                 link_buttom(
-                    data.LOGO_PYTHON,
+                    data.LOGO_REACT,
                     data.URL_PYTHON,
                     "ReactJS"
                 ),
                 link_buttom(
-                    data.LOGO_PYTHON,
+                    data.LOGO_CSS,
                     data.URL_PYTHON,
                     "Css"
                 ),
                 link_buttom(
-                    data.LOGO_PYTHON,
+                    data.LOGO_JAVASCRIPT,
                     data.URL_PYTHON,
                     "Javascript"
                 ),

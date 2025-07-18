@@ -15,11 +15,11 @@ def body() -> rx.Component:
             rx.vstack(
                 info_detail(
                     "Proyectos",
-                    "Página de Links",
-                    "página de links responsive y configurable",
-                    data.DESCRIPCION_PAGINA_LINKS,
-                    data.URL_JUANDEV,
-                    data.URL_JUANDEV_GITHUB
+                    "Gestor de tareas personales (To-Do List):",
+                    "Desarrollo de una aplicación web moderna y segura para la gestión de tareas personales.",
+                    data.DESCRIPCION_LIST_TO_DO,
+                    data.URL_LIST_TO_DO,
+                    data.URL_LIST_TO_DO_GITHUB
                 ),
                 width="30em"
             ),
@@ -27,7 +27,7 @@ def body() -> rx.Component:
             rx.card(
                 rx.inset(
                     rx.image(
-                        src= "preview.png",
+                        src= "list_to_do.png",
                         height= IMAGE_HEIGHT,
                         width="100%",
                         object_fit="cover"
@@ -41,9 +41,36 @@ def body() -> rx.Component:
         rx.hstack(
             rx.vstack(
                 info_detail(
-                    "Proyectos",
+                    "Página de Links",
+                    "",
+                    "Página de enlaces personal (my-links-page)",
+                    data.DESCRIPCION_PAGINA_LINKS,
+                    data.URL_LINKS_PAGE,
+                    data.URL_LINKS_PAGE_GITHUB
+                ),
+                width="30em"
+            ),
+            rx.spacer(),
+            rx.card(
+                rx.inset(
+                    rx.image(
+                        src= "links_page.png",
+                        height= IMAGE_HEIGHT,
+                        width="100%",
+                        object_fit="cover"
+                    ),
+                    pb=Size.DEFAULT.value
+                )
+            ),
+            width="100%",
+            wrap="wrap-reverse"
+        ),
+        rx.hstack(
+            rx.vstack(
+                info_detail(
                     "portafolio",
-                    "Portafolio de programador responsive y personalizable",
+                    "",
+                    "Portafolio web profesional (portafolio):",
                     data.DESCRIPCION_PORTAFOLIO,
                     data.URL_PORTAFOLIO,
                     data.URL_PORTAFOLIO_GITHUB
@@ -54,7 +81,7 @@ def body() -> rx.Component:
             rx.card(
                 rx.inset(
                     rx.image(
-                        src= "preview-2.png",
+                        src= "portafolio.png",
                         height= IMAGE_HEIGHT,
                         width="100%",
                         object_fit="cover"
