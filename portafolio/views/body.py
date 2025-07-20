@@ -3,7 +3,7 @@ import portafolio.data as data
 from portafolio.styles.styles import IMAGE_HEIGHT, Size
 from portafolio.componentes.info_detail import info_detail
 from portafolio.views.tech_stack import tech_stack
-from .info_experience import info_experience
+from .info_education import info_education
 
 
 
@@ -93,11 +93,11 @@ def body() -> rx.Component:
             wrap="wrap-reverse",
             align="center"
         ),
-        info_experience(
+        info_education(
             "Formación",
-            "Instituto Técnico José Eugenio Martinez",
-            "Bachiller Técnico en Sistemas",
-            "Egresado noviembre 2018"
+            "• Programador Python – Educación IT (En curso)",
+                "• HTML, CSS y JavaScript Avanzado – UTN-Learning (2022)",
+                "• Técnico en Sistemas – Instituto José Eugenio Martínez (2018)",
         ),
         spacing="7",
         width="100%"

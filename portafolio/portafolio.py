@@ -21,7 +21,7 @@ def index() -> rx.Component:
         rx.vstack(
             header(),
             about(
-                "Sobre mí",
+                "Perfil Profesional",
                 data.DESCRIPTION
             ),
             rx.divider(),

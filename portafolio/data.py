@@ -1,11 +1,8 @@
-DESCRIPTION="""Soy estudiante de Ingeniería de Sistemas y actualmente estoy disponible como back-end
-                y front-end developer. Programador junior comprometido con valores como el respeto, 
-                la confianza, la honestidad y la predisposición, fundamentales para colaborar en equipos
-                de desarrollo. Destaco por mi capacidad para tomar decisiones, mis habilidades de comunicación
-                y mi enfoque proactivo, que me permiten abordar desafíos con creatividad e innovación. 
-                Tengo experiencia en la gestión de prioridades, realización de pruebas de funcionalidad
-                y rendimiento, y resolución de problemas técnicos, siempre orientado a garantizar la calidad
-                y eficiencia en cada proyecto de desarrollo."""
+DESCRIPTION="""Desarrollador Full Stack Junior con experiencia comprobada en el desarrollo de soluciones
+web reales y escalables para clientes como freelancer. Especializado en Python, Reflex,
+JavaScript, FastAPI y React. Fuerte orientación a resultados, buenas prácticas y desarrollo
+responsive. Capacidad para adaptarme a distintas tecnologías y metodologías ágiles. Busco
+incorporarme a un equipo donde pueda aportar valor y seguir creciendo en el mundo IT."""
 
 DESCRIPCION_PAGINA_LINKS="""Desarrollo de aplicación web para centralizar y gestionar enlaces importantes de un usuario (redes sociales, portafolio, links profesionales, etc.) en una sola página personalizada, ideal para compartir como único link en redes o presentaciones. Incluye CRUD completo de enlaces, panel de administración intuitivo, preview, personalización básica y diseño responsivo accesible desde cualquier dispositivo.
 Stack: Reflex (Python), frontend y backend integrados, despliegue rápido en hosting moderno."""
@@ -25,9 +22,9 @@ MAIL="juandavidballesterosbayona@gmail.com"
 LOGO_REFLEX="icons/favicon.png"
 LOGO_FASTAPI="icons/logo-api.png"
 LOGO_PYTHON="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-LOGO_CSS="logo_css.svg"
-LOGO_REACT="logo_react.svg"
-LOGO_JAVASCRIPT="logo_javascript.svg"
+LOGO_CSS="icons/logo_css.svg"
+LOGO_REACT="icons/logo_react.svg"
+LOGO_JAVASCRIPT="icons/logo_javascript.svg"
 URL_CV="cv.pdf"
 
 #url proyectos
